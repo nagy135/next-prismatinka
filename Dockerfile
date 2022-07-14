@@ -13,7 +13,7 @@ COPY yarn.lock /usr/src/app
 
 RUN yarn
 
-RUN yarn global add prisma
+RUN yarn global add prisma next
 
 RUN prisma generate
 
